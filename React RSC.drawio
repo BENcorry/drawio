@@ -1,9 +1,208 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="0JRgN5H1H5ANvr9fFxJQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2314" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-35" value="开发者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-36" value="React编译器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-37" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-36">
+          <mxGeometry x="70" y="109" width="10" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-38" value="打包工具" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-39" value="服务端运行时" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-40" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-39">
+          <mxGeometry x="70" y="486" width="10" height="393" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-41" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-39">
+          <mxGeometry x="70" y="1363" width="10" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-42" value="客户端运行时" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="820" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-43" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-42">
+          <mxGeometry x="70" y="869" width="10" height="382" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-44" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-42">
+          <mxGeometry x="70" y="1317" width="10" height="534" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-45" value="数据源" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="20" width="150" height="2264" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-46" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="DAp-rwDQiNQ0AG_K0YhS-45">
+          <mxGeometry x="70" y="532" width="10" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-47" value="编写RSC组件" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-35" target="DAp-rwDQiNQ0AG_K0YhS-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-48" value="1. 分析组件树&#xa;2. 分离服务端/客户端组件" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-37" target="DAp-rwDQiNQ0AG_K0YhS-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="205" />
+              <mxPoint x="350" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-49" value="生成两套bundle：" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-37" target="DAp-rwDQiNQ0AG_K0YhS-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-50" value="部署服务端bundle" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-38" target="DAp-rwDQiNQ0AG_K0YhS-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="604" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-51" value="部署客户端bundle" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-38" target="DAp-rwDQiNQ0AG_K0YhS-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="704" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-52" value="发起页面请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-42" target="DAp-rwDQiNQ0AG_K0YhS-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="807" y="506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-53" value="请求初始数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-40" target="DAp-rwDQiNQ0AG_K0YhS-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="906" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-54" value="返回数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-46" target="DAp-rwDQiNQ0AG_K0YhS-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="907" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-55" value="执行RSC渲染：" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-40" target="DAp-rwDQiNQ0AG_K0YhS-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="652" />
+              <mxPoint x="750" y="682" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-56" value="流式传输响应：&#xa;1. RSC二进制流&#xa;2. CC占位符&#xa;3. 序列化状态" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-40" target="DAp-rwDQiNQ0AG_K0YhS-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="806" y="889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-57" value="解析流响应：" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-43" target="DAp-rwDQiNQ0AG_K0YhS-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="935" />
+              <mxPoint x="950" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-58" value="执行渐进式水合：" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-43" target="DAp-rwDQiNQ0AG_K0YhS-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1098" />
+              <mxPoint x="950" y="1128" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-59" value="呈现可交互界面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-43" target="DAp-rwDQiNQ0AG_K0YhS-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="1261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-60" value="用户触发交互事件" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-44" target="DAp-rwDQiNQ0AG_K0YhS-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="946" y="1307" />
+              <mxPoint x="946" y="1337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-61" value="发送更新请求：" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-44" target="DAp-rwDQiNQ0AG_K0YhS-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="1383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-62" value="增量重新计算：" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-41" target="DAp-rwDQiNQ0AG_K0YhS-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1535" />
+              <mxPoint x="750" y="1565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-63" value="返回差异更新包" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-41" target="DAp-rwDQiNQ0AG_K0YhS-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="1698" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-64" value="应用增量更新：" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="DAp-rwDQiNQ0AG_K0YhS-44" target="DAp-rwDQiNQ0AG_K0YhS-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1744" />
+              <mxPoint x="950" y="1774" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-65" value="- 服务端bundle (RSC)&#xa;- 客户端bundle (CC)&#xa;- 模块清单(Manifest)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="270" y="301" width="250" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-66" value="1. 解析组件树&#xa;2. 跳过客户端组件&#xa;3. 生成RSC负载" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="620" y="702" width="151" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-67" value="1. 反序列化RSC负载&#xa;2. 匹配客户端组件&#xa;3. 构建组件树" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="813" y="985" width="165" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-68" value="1. 按优先级水合&#xa;2. 填充交互逻辑&#xa;3. 附加事件监听" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1148" width="150" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-69" value="包含：&#xa;- 当前状态快照&#xa;- 变更路径&#xa;- 客户端组件hash" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1403" width="250" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-70" value="1. 比对组件hash&#xa;2. 仅重新渲染变更分支&#xa;3. 复用缓存结果" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="604" y="1585" width="183" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-71" value="1. 合并状态&#xa;2. 局部重新渲染&#xa;3. 维持现有状态" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1794" width="150" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-72" value="序列化协议特点：&#xa;- 紧凑二进制格式&#xa;- 支持复杂数据类型&#xa;- 自动循环引用处理" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1881" width="250" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-73" value="客户端水合优化：&#xa;- 按需加载CC代码&#xa;- 并行加载与解析&#xa;- 后台预加载" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1987" width="450" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="DAp-rwDQiNQ0AG_K0YhS-74" value="服务端缓存策略：&#xa;- 组件级缓存&#xa;- 数据请求去重&#xa;- 自动失效机制" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2093" width="450" height="106" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
