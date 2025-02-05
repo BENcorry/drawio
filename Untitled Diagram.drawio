@@ -1,9 +1,229 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="Zmr6mv6rlm5EX8YAR18m">
-    <mxGraphModel>
+    <mxGraphModel dx="2765" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-1" value="用户浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-2" value="CDN边缘节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="231" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-3" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-2">
+          <mxGeometry x="70" y="239" width="10" height="712" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-4" value="Next.js服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="478" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-5" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-4">
+          <mxGeometry x="70" y="409" width="10" height="486" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-6" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-4">
+          <mxGeometry x="70" y="1081" width="10" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-7" value="构建进程" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="678" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-8" value="数据缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="878" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-9" value="ISR缓存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-10" value="数据源" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1278" y="20" width="150" height="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-11" value="" style="points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0}" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-10">
+          <mxGeometry x="70" y="591" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-12" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="291" y="540" width="1077" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-13" value="[需要重新验证]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-12">
+          <mxGeometry x="30" width="1047" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-14" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="281" y="449" width="1097" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-15" value="[ISR逻辑处理]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-14">
+          <mxGeometry x="30" width="1067" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-16" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="279" width="1304" height="702" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-17" value="[全路由缓存命中（CDN）]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-16">
+          <mxGeometry x="30" width="1274" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-18" value="" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-16">
+          <mxGeometry y="104" width="1304" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-19" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="538" y="1212" width="826" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-20" value="[需要后台再生]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-19">
+          <mxGeometry x="30" width="796" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-21" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="84" y="1121" width="1290" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-22" value="[增量再生触发]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="BmnzMOqIMTCZc_oKfN1r-21">
+          <mxGeometry x="30" width="1260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-23" value="构建时预渲染页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-7" target="BmnzMOqIMTCZc_oKfN1r-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-24" value="存储初始静态页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-4" target="BmnzMOqIMTCZc_oKfN1r-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="862" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-25" value="预缓存初始数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-4" target="BmnzMOqIMTCZc_oKfN1r-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-26" value="发起页面请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-1" target="BmnzMOqIMTCZc_oKfN1r-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="209" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-27" value="立即返回缓存HTML" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-3" target="BmnzMOqIMTCZc_oKfN1r-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-28" value="转发请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-3" target="BmnzMOqIMTCZc_oKfN1r-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-29" value="检查页面过期时间" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-30" value="后台请求新数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-31" value="返回新数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-10" target="BmnzMOqIMTCZc_oKfN1r-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="657" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-32" value="更新数据缓存" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-33" value="生成新页面并更新" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-34" value="更新全路由缓存" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-35" value="返回静态页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-9" target="BmnzMOqIMTCZc_oKfN1r-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="851" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-36" value="返回HTML + 设置缓存头" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-5" target="BmnzMOqIMTCZc_oKfN1r-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-37" value="返回最终页面" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-3" target="BmnzMOqIMTCZc_oKfN1r-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="961" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-38" value="Hydration执行" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-1" target="BmnzMOqIMTCZc_oKfN1r-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1025" />
+              <mxPoint x="146" y="1055" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-39" value="客户端导航请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-1" target="BmnzMOqIMTCZc_oKfN1r-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-40" value="检查页面版本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-6" target="BmnzMOqIMTCZc_oKfN1r-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="1192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-41" value="异步获取新数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-6" target="BmnzMOqIMTCZc_oKfN1r-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="1283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-42" value="更新页面版本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-6" target="BmnzMOqIMTCZc_oKfN1r-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="864" y="1329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-43" value="返回当前有效版本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="BmnzMOqIMTCZc_oKfN1r-9" target="BmnzMOqIMTCZc_oKfN1r-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="1385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-44" value="Next.js缓存架构核心组件：&#xa;1. 数据缓存（内存/Redis）&#xa;2. 全路由缓存（CDN）&#xa;3. ISR存储（持久化存储）&#xa;4. 客户端缓存（SWR）" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="728" y="1415" width="450" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="BmnzMOqIMTCZc_oKfN1r-45" value="ISR工作原理：&#xa;- 初始构建生成静态页面&#xa;- 通过revalidate设置有效期&#xa;- 过期后下次访问触发后台再生&#xa;- 支持按需手动刷新" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="528" y="1540" width="650" height="125" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
